@@ -1,7 +1,7 @@
 
 export const generateEmailHTML = (appUrl: string = window.location.href) => {
-  const primaryColor = '#0076B9';
-  const secondaryColor = '#1CB4E6';
+  const primaryColor = '#0075B9';
+  const secondaryColor = '#1CB3E7';
 
   return `<!DOCTYPE html>
 <html lang="fr">

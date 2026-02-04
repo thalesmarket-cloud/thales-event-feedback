@@ -10,11 +10,22 @@
     <style>
         body {
             font-family: 'Poppins', sans-serif;
-            background-color: #f8fafc;
+            background-color: #0075B9; /* Nouvelle couleur primaire */
         }
         .star-rating:hover .star-input:checked ~ label,
         .star-rating label:hover ~ label {
-            color: #eab308;
+            color: #1CB3E7; /* Couleur secondaire pour les étoiles au hover */
+        }
+        /* Custom scrollbar pour l'esthétique B2B */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #00609a;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #1CB3E7;
+            border-radius: 4px;
         }
     </style>
 <script type="importmap">
